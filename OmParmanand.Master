@@ -36,7 +36,7 @@
       <!-- Favicons-->
       <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
       <link rel="apple-touch-icon" sizes="192x192" href="/apple-icon-192x192.png">
-    <link rel="apple-touch-icon" sizes="512x512" href="/apple-icon-512x512.png">
+      <link rel="apple-touch-icon" sizes="512x512" href="/apple-icon-512x512.png">
       <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -68,32 +68,32 @@
             <div class="collapse navbar-collapse" id="navbar-brand-centered">
                <ul class="nav navbar-nav">
                   <li class="active"><a href="Default.aspx">होम</a></li>
-                  <li><a href="#">बाबाजी</a></li>
+                  <li><a href="babaji.aspx">बाबाजी</a></li>
                   <li class="dropdown">
                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">आश्रम<b class="caret"></b></a>
                      <ul class="dropdown-menu">
-                        <li><a href="#">मंदिर</a></li>
-						<li><a href="#">गोशाळा</a></li>
-                        <li><a href="#">आश्रम </a></li>
-                        <li><a href="#">गुरुकुल</a></li>
+                        <li><a href="mandir.aspx">मंदिर</a></li>
+						<li><a href="goshala.aspx">गोशाळा</a></li>
+                        <li><a href="ashram.aspx">आश्रम </a></li>
+                        <li><a href="gurukul.aspx">गुरुकुल</a></li>
                      </ul>
                   </li>
                   <li class="dropdown">
                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">गॅलरी<b class="caret"></b></a>
                      <ul class="dropdown-menu">
-                        <li><a href="#">पुस्तके</a></li>
-						<li><a href="#">व्हिडीओ </a></li>
-                        <li><a href="#">भक्ती गीते </a></li>
-                        <li><a href="#">अभंग </a></li>
-                        <li><a href="#">फोटो</a></li>
+                        <li><a href="books.aspx">पुस्तके</a></li>
+						<li><a href="video-gallery.aspx">व्हिडीओ </a></li>
+                        <li><a href="bhakti-gite.aspx">भक्ती गीते </a></li>
+                        <li><a href="abhang.aspx">अभंग </a></li>
+                        <li><a href="gallery.aspx">फोटो</a></li>
                      </ul>
                   </li>
                </ul>
                <ul class="nav navbar-nav navbar-right">
-                  <li><a href="#">विधी </a></li>
+                  <li><a href="vidhi.aspx">विधी </a></li>
                   <li><a href="#">कॅलेंडर </a></li>                  
-                  <li><a href="#">संपर्क </a></li>
-                  <li><a href="#">देणगी  </a></li>
+                  <li><a href="contact.aspx">संपर्क </a></li>
+                  <li><a href="donate.aspx">देणगी  </a></li>
                </ul>
             </div>
             <!-- /.navbar-collapse -->

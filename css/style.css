@@ -1,9 +1,6 @@
 /*
-Template Name: PetZ
-Author: Ingrid Kuhn
-Author URI: themeforest/user/ingridk
 Version: 1.0
-Last change: 13th june 2018
+Last change: 04th Dec 2025
 
 	Table of Contents
 
@@ -1954,12 +1951,12 @@ blockquote:before {
 /* Jumbotron */
 
 .jumbotron {
-    background-size: cover!important;
+    background-size: cover !important;
     height: 380px;
     color: #fff;
     text-align: center;
     margin-bottom: 12em;
-    background: url(../img/jumbotron.jpg);
+    background: url(../img/head-babaji.jpg);
     border-bottom-left-radius: 25%;
     border-bottom-right-radius: 25%;
 }
@@ -2605,5 +2602,17 @@ button.list-group-item:hover {
     }
     .slide__text {
         top: 50%;
+    }
+
+    /* Page Headers */
+    .babaji {
+        background-size: cover !important;
+        height: 380px;
+        color: #fff;
+        text-align: center;
+        margin-bottom: 12em;
+        background: url(../img/babajihd.jpg);
+        border-bottom-left-radius: 25%;
+        border-bottom-right-radius: 25%;
     }
 }
