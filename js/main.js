@@ -259,4 +259,10 @@ $(window).load(function() {
     });
 	
 
+    // Dynamic current year in footer
+    var currentYear = new Date().getFullYear();
+    $('#current-year').text(currentYear);
+    $('.current-year').text(currentYear);
+
 }); // end window load
+

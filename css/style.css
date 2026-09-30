@@ -1308,7 +1308,8 @@ footer a {
     color: #fff;
 }
 
-.credits {
+.credits,
+.credits span {
     color: #fff;
     font-size: 12px;
 }
